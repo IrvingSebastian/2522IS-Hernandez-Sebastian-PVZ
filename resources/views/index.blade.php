@@ -78,10 +78,8 @@
         <div class="hero-full-wrapper">
           <div class="text-content">
             <h1>Animal -</h1>
-              @foreach ($Animales as $Animal)
-                <p>{{$Animal['id']}}</p>
-                <p>{{$Animal['name']}}</p>
-              @endforeach
+                <p>{{$Animales[0]['id']}}</p>
+                <p>{{$Animales[0]['name']}}</p>
           </div>
         </div>
       </div>
