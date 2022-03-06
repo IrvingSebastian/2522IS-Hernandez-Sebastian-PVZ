@@ -78,8 +78,7 @@
         <div class="hero-full-wrapper">
           <div class="text-content">
             <h1>Animal -</h1>
-                <p>{{$Animales[0]['id']}}</p>
-                <p>{{$Animales[0]['name']}}</p>
+              
           </div>
         </div>
       </div>
