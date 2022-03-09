@@ -41,11 +41,9 @@
                         </li>
                     </ul>
                 </div>
+            </div>
 
-
-
-
-                <div class="col-md-6">
+            <div class="col-md-6">
                     <img src="./img/img-profil.jpg" class="img-responsive" alt=""> 
                 </div>
                 <div class="col-md-6">
@@ -77,7 +75,6 @@
                         </li>
                     </ul>
                 </div>
-            </div>
         </div>
     </div>
 </div>
