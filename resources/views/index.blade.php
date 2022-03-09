@@ -5,7 +5,7 @@
 @endsection
 
 @section('Cuerpo')
-<div class="hero-full-container background-image-container white-text-container" style="background-image:url('./img/img-home.jpg')">
+<div class="hero-full-container background-image-container white-text-container" style="background-image:url('./img/Fondo1.png')">
   <div class="overlay-gradient"></div>
   <div class="container">
     <div class="row">
@@ -13,8 +13,9 @@
         <div class="hero-full-wrapper">
           <div class="text-content">
             <h1>DinoAnimales</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Quieres saber algunas cosas acerca de Animales y Dinosaurios?</p>
+            <p>Estas en la pagina correcta.</p>
+            <p>VAMOS!, dale a las 3 lineas de arriba y empieza.</p>
           </div>
         </div>
       </div>
