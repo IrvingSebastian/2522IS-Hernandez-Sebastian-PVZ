@@ -14,4 +14,14 @@ use App\Http\Controllers\ApiController;
 |
 */
 
-Route::get('/', [ApiController::class,'index']) ->name('index');
+//Vistas Normales
+Route::get('/', [ApiController::class,'raiz']) ->name('raiz');
+
+Route::get('/index', [ApiController::class,'index']) ->name('index');
+
+Route::get('/acercaDe', [ApiController::class,'acercaDe']) ->name('acercaDe');
+
+//Vistas Animales
+Route::get('/animales', [ApiController::class,'animales']) ->name('animales');
+
+Route::get('/animales/{id}', [ApiController::class,'animalesInfo']) ->name('animalesInfo');
