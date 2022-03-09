@@ -10,68 +10,52 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="col-md-6">
-                    <img src="./img/img-profil.jpg" class="img-responsive" alt=""> 
+                    <img src="./img/Greg.webp" class="img-responsive" alt=""> 
                 </div>
                 <div class="col-md-6">
                     <h1 class="h2">Irving Gregorio Sebastian Idelfonso</h1>
-                    <p>Mi eget mauris pharetra et ultrices neque ornare. Pellentesque elit ullamcorper dignissim cras tincidunt
-                        lobortis. Euismod in pellentesque massa placerat. Consectetur libero id faucibus nisl tincidunt eget.
-                        Pulvinar etiam non quam lacus suspendisse. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada.
-                        Ante in nibh mauris cursus mattis molestie a iaculis. Gravida cum sociis natoque penatibus et magnis
-                        dis parturient montes. Ultrices gravida dictum fusce ut placerat orci.</p>
+                    <p>Programador, Diseñador, Estudiante y a veces Programadora.</p>
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="mailto:myemail@myemail.com" title="" class="link-like-text">email</a>
+                            <a href="https://www.facebook.com/IrvinGregTrapecio" title="" class="link-like-text">Facebook</a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/" title="" class="link-like-text">linkedin</a>
+                            <a href="https://steamcommunity.com/id/IrvinGreg51/" title="" class="link-like-text">Steam</a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/" title="" class="link-like-text">facebook</a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" title="" class="link-like-text">instagram</a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" title="" class="link-like-text">twitter</a>
-                        </li>
-                        <li>
-                            <a href="https://www.behance.net" title="" class="link-like-text">behance</a>
+                            <a href="https://github.com/IrvingSebastian" title="" class="link-like-text">GitHub</a>
                         </li>
                     </ul>
                 </div>
             </div>
 
             <div class="col-md-6">
-                    <img src="./img/img-profil.jpg" class="img-responsive" alt=""> 
+                    <img src="./img/Andrew.webp" class="img-responsive" alt=""> 
                 </div>
                 <div class="col-md-6">
                     <h1 class="h2">Luis Fernando Hernández García (Andrew Mathews)</h1>
-                    <p>Mi eget mauris pharetra et ultrices neque ornare. Pellentesque elit ullamcorper dignissim cras tincidunt
-                        lobortis. Euismod in pellentesque massa placerat. Consectetur libero id faucibus nisl tincidunt eget.
-                        Pulvinar etiam non quam lacus suspendisse. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada.
-                        Ante in nibh mauris cursus mattis molestie a iaculis. Gravida cum sociis natoque penatibus et magnis
-                        dis parturient montes. Ultrices gravida dictum fusce ut placerat orci.</p>
+                    <p>Soy Fernando, o tambien llamado Andrew y me dedico a la produccion de musica electronica, ademas
+                        de ser DJ y programador.</p>
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="mailto:myemail@myemail.com" title="" class="link-like-text">email</a>
+                            <a href="https://www.facebook.com/Andrew-Mathews-109298767487937" title="" class="link-like-text">Facebook</a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/" title="" class="link-like-text">linkedin</a>
+                            <a href="https://www.instagram.com/the_andrew_mathews/?hl=es-la" title="" class="link-like-text">Instagram</a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/" title="" class="link-like-text">facebook</a>
+                            <a href="https://soundcloud.com/andrew-mathews-556938911" title="" class="link-like-text">SoundCloud</a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/" title="" class="link-like-text">instagram</a>
+                            <a href="https://www.youtube.com/channel/UCLaidJlW7ueiSBXAfPFDNNg" title="" class="link-like-text">YouTube</a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/" title="" class="link-like-text">twitter</a>
+                            <a href="https://skiomusic.com/andrew-mathews" title="" class="link-like-text">SKIO</a>
                         </li>
                         <li>
-                            <a href="https://www.behance.net" title="" class="link-like-text">behance</a>
+                            <a href="https://virpp.com/profile/29807" title="" class="link-like-text">VIRPP</a>
                         </li>
                     </ul>
                 </div>
