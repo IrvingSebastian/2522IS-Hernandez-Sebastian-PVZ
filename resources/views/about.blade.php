@@ -13,8 +13,9 @@
                     <img src="./img/Greg.webp" class="img-responsive" alt=""> 
                 </div>
                 <div class="col-md-6">
-                    <h1 class="h2">Irving Gregorio Sebastian Idelfonso</h1>
-                    <p>Programador, Diseñador, Estudiante y a veces Programadora.</p>
+                    <h1 class="h2">Irving Gregorio Sebastian Ildefonso (IrvinGreg)</h1>
+                    <p>Hola, soy Irving, me fascina la Programación y es lo que estudio actualmente,
+                    y aunque soy programador, a veces puedo ser programadora.</p>
 
                     <ul class="list-unstyled">
                         <li>
@@ -35,7 +36,7 @@
                 </div>
                 <div class="col-md-6">
                     <h1 class="h2">Luis Fernando Hernández García (Andrew Mathews)</h1>
-                    <p>Soy Fernando, o tambien llamado Andrew y me dedico a la produccion de musica electronica, ademas
+                    <p>Soy Fernando, o tambien llamado Andrew y me dedico a la produccion de musica electrónica, además
                         de ser DJ y programador.</p>
 
                     <ul class="list-unstyled">
