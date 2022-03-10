@@ -13,8 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
+        //Borrar si existe una tabla Animales
         Schema::dropIfExists('Animales');
 
+        //Crear la tabla Animales con los atributos
         Schema::create('Animales', function (Blueprint $table) {
             $table->id('ID');
             $table->string('Nombre');

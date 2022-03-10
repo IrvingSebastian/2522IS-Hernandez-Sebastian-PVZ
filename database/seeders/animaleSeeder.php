@@ -4,6 +4,8 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+
+//Para la variable BD
 use Illuminate\Support\Facades\DB;
 
 class animaleSeeder extends Seeder
@@ -15,12 +17,15 @@ class animaleSeeder extends Seeder
      */
     public function run()
     {
+        //Consultar el API de animales
         $cliente1 = new \GuzzleHttp\Client();
         $response = $cliente1->request('GET', 'https://zoo-animal-api.herokuapp.com/animals/rand/10');
         $Animales = json_decode($response->getBody()->getContents(), true);
 
+        //Recorrer el arreglo obtenido
         for($i=0; $i<10; $i++) 
         {
+            //Guardar los datos en la tabla Animales
             DB::table('Animales')->insert([
                 'Nombre' => $Animales[$i]['name'],
                 'Nombre_latino' => $Animales[$i]['latin_name'],

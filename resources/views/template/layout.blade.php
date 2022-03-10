@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -33,7 +33,7 @@
         <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <ul class="navbar-fullscreen-links">
           <li><a href="{{route('index')}}" title="">Inicio</a></li>
-          <li><a href="{{route('animales')}}" title="">Animales</a></li>
+          <li><a href="{{route('acercaDe')}}" title="">Dinosaurios</a></li>
           <li><a href="{{route('acercaDe')}}" title="">Acerca De</a></li>
         </ul>
 
@@ -41,11 +41,11 @@
            
           <p><small>© Dinoanimales | Todos los Derechos Reservados 2022</p>
           <p class="footer-share-icons">
-              <a href="https://www.twitter.com" class="fa-icon" title="">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
+              <a href="https://blog-cliente-servidor.herokuapp.com" class="fa-icon" title="">
+                <i class="fa fa-globe" aria-hidden="true"></i>
               </a>
               <a href="https://www.linkedin.com" class="fa-icon" title="">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-globe" aria-hidden="true"></i>
               </a>
           </p>             
         </div>
