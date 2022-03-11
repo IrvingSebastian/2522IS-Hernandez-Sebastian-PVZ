@@ -21,8 +21,9 @@ use App\Http\Controllers\AnimalController;
 Route::get('/', [ApiController::class,'raiz']) ->name('raiz');
 Route::get('/index', [ApiController::class,'index']) ->name('index');
 Route::get('/acercaDe', [ApiController::class,'acercaDe']) ->name('acercaDe');
+Route::get('/indexD', [ApiController::class,'indexD']) ->name('indexD');
 
-//Vistas Animales
+//Vistas Animales y Dinosaurios
 Route::get('/animales/{id}', [ApiController::class,'animales']) ->name('animales');
 
 //Vista del JSON de la Base de Datos

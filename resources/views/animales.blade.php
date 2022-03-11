@@ -1,7 +1,7 @@
 @extends('template.layout')
   
 @section('Titulo')
-  Animales
+  {{$Animal['Nombre']}}
 @endsection
 
 @section('Cuerpo')

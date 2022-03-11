@@ -33,7 +33,7 @@
         <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <ul class="navbar-fullscreen-links">
           <li><a href="{{route('index')}}" title="">Inicio</a></li>
-          <li><a href="{{route('acercaDe')}}" title="">Dinosaurios</a></li>
+          <li><a href="{{route('indexD')}}" title="">Dinosaurios</a></li>
           <li><a href="{{route('acercaDe')}}" title="">Acerca De</a></li>
         </ul>
 
