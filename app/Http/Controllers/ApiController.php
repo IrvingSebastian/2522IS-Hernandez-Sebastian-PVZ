@@ -27,7 +27,7 @@ class ApiController extends Controller
 
     //Función de Inicio o Index de Dinosarios
     public function indexD(){
-        //Elegir 4 Dinosaurios aleatorios para el Index
+        //Elegir 3 Dinosaurios aleatorios para el Index
 
         return view('indexD');
     }
@@ -42,6 +42,16 @@ class ApiController extends Controller
         $id = $Animal['ID'];
     
         return view('animales', ['Animal'=>$Animal, 'Animal_1'=>$Animal_1, 'Animal_2'=>$Animal_2, 'id'=>$id]);
+    }
+
+    public function dinosaurios($id){
+        //Buscar el Dinosaurio y enviar 2 Dinosaurios aleatorios
+
+
+        //Variable para los ID de los Animales
+    
+
+        return view('dinosaurios');
     }
 
     //Función de la vista de Acerca De

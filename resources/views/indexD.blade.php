@@ -30,24 +30,24 @@
           </div>
           <div class="col-md-8">
             <h3>¿Qué son los dinosaurios?</h3>
-            <p>Caminan sobre el planeta tierra desde mucho tiempo antes que los hombres, 
-              existen cientos de miles de especies sobre ellos, y aunque creemos que los 
-              conocemos, en realidad son todavía un misterio en su comportamiento, 
-              conductas, biología y diversidad, hablamos de los <b>animales</b>.</p>
-            <p>Cuando clasificamos a los seres vivos, lo hacemos principalmente en dos tipos:
-              plantas y animales. Los animales son aquellos seres vivos capaces de moverse, 
-              y que carecen de clorofila y de paredes celulares, es decir que son muy 
-              distinto de las plantas. Bajo ese concepto, los humanos son incluidos dentro del 
-              grupo de los animales, aunque a diferencia de estos poseen la capacidad de 
-              pensar.</p>
-            <p>El animal es un organismo pluricelular que, por lo general, presenta la capacidad 
-              de movimiento y sensibilidad. Se caracteriza por poseer muchas células eucariotas, 
-              carentes de una pared celular y de pigmentos fotosintéticos, y además de ser 
-              heterótrofo, su nutrición se efectúa principalmente por ingestión a través 
-              de una cavidad interna, algunos animales se alimentan de otros seres vivos, 
-              y su reproducción suele ser sexual. La morfología de un animal es muy diversa, 
-              existe tanto de forma microscópica (un gusano) como de gran tamaño (una ballena), 
-              al igual que su anatomía es muy distinta entre las especies.</p>
+            <p>Los <b>dinosaurios</b> se encuentran entre las criaturas más impresionantes que jamás hayan 
+              poblado la Tierra. No obstante, a menudo se incluye por error en esta categoría a 
+              animales extintos que en realidad no son dinosaurios ni parientes cercanos de estos. 
+              Su aspecto más o menos parecido puede inducir fácilmente a error.</p>
+            <p>De hecho, los dinosaurios fueron muy diversos. Los paleontólogos han reconocido más 
+              de 1,000 especies distintas de aves, desde pequeños cazadores de insectos plumosos 
+              hasta gigantes que crecieron hasta llegar a medir más de 100 pies de largo y pesar 
+              más de 70 toneladas. Había dinosaurios con cuernos, dinosaurios acorazados, 
+              dinosaurios con cabeza de cúpula, dinosaurios con cresta, dinosaurios de cuello largo,
+              dinosaurios con garras en forma de hoz y dinosaurios desgarradores de carne. 
+              La mayoría vivió una existencia completamente terrestre, pero algunos con frecuencia 
+              se metieron en lagos y ríos mientras que también hubo un linaje que aleteó y 
+              revoloteó en el aire, evolucionando hacia las aves que son los únicos dinosaurios 
+              vivos en la actualidad.</p>
+            <p>A diferencia de los reptiles que vemos hoy en día, los dinosaurios caminaban con 
+              sus patas directamente debajo de sus caderas. Por ejemplo, los cocodrilos se 
+              mueven gateando por el suelo y casi parecen estar arrastrándose sobre sus vientres. 
+              Los dinosaurios caminaban de manera erecta.</p>
             <p>Para dar a conocer un poco más acerca de estos dinosaurios hemos realizado esta página
               que consulta información de una API, misma que fue consultada por 2 miembros del equipo. 
               Al igual que con los animales, si deseas consultar cualquier información puedes usar los botones
@@ -62,8 +62,8 @@
         <p><a href="" class="btn btn-primary btn-lg">XD</a></p>
 
         <blockquote class="text-center large-spacing">
-            <p>"Los animales nacen como son, lo aceptan y eso es todo. Viven con mayor paz que las personas"</p>
-            <small class="pull-right">Gregory Maguire</small>
+            <p>"Todo el mundo piensa que va a ser diferente para ellos. Los dinosaurios también lo pensaban"</p>
+            <small class="pull-right">Kathryn Davis</small>
         </blockquote>
         
         <div class="row">
@@ -77,10 +77,6 @@
             <p><a href="" class="btn btn-primary btn-lg">XD</a></p>
             </div>
         </div>
-
-        <img src="" class="img-responsive" style="width: 5000px">
-        <p><a href="" class="btn btn-primary btn-lg">XD</a></p>
-
       </div>
     </div>
   </div>

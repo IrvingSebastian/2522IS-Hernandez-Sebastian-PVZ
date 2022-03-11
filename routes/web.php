@@ -25,6 +25,7 @@ Route::get('/indexD', [ApiController::class,'indexD']) ->name('indexD');
 
 //Vistas Animales y Dinosaurios
 Route::get('/animales/{id}', [ApiController::class,'animales']) ->name('animales');
+Route::get('/dinosaurios/{id}', [ApiController::class,'dinosaurios']) ->name('dinosaurios');
 
 //Vista del JSON de la Base de Datos
 Route::get('/consultarAnimales', [AnimalController::class,'consultarAnimales']) ->name('consultarAnimales');
