@@ -8,12 +8,14 @@
 </p>
 
 
-## Nombres de las Binas
+## Nombres de la Bina
 Irving Gregorio Sebastián Ildefonso. <br>
 Luis Fernando Hernández García.
 
 - [Link de la página](http://animalesaurios.herokuapp.com/).
 
+
+## Nombres de la Otra Bina
 Gabriela Menéndez Gómez. <br>
 Fernando Vargas Bautista.
 - [Link de la página de la otra Bina](http://animalesaurios.herokuapp.com/).
