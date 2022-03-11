@@ -20,6 +20,25 @@ Luis Fernando Hernández García.
 
 Para consultar la API solo hace falta ingresar a la siguiente ruta y consultarla con método GET:
 - http://animalesaurios.herokuapp.com/consultarAnimales.
+<br>
+Esta ruta retornará un arreglo con todos los animales, el arreglo se llama Animales, y puedes identificarlo con los ID's.
+<br>
+Toda la información contendia es la siguiente:
+- Nombre: 
+- Nombre_latino:
+- Tipo:
+- Tiempo_activo
+- Longi_min
+- Longi_max
+- Peso_min
+- Peso_max
+- Esperanza_vida
+- Habitat
+- Dieta
+- Rango_geo
+- Imagen
+- created_at
+- updated_at
 
 ## License
 
