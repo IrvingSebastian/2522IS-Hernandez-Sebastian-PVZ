@@ -29,18 +29,18 @@ Toda la información contendia es la siguiente:
 - <b>Nombre: </b>Indica el nombre del animal.
 - <b>Nombre_latino: </b> Nombre científico del Animal.
 - <b>Tipo: </b> Tipo de Animal seleccionado.
-- <b>Tiempo_activo.
-- <b>Longi_min.
-- <b>Longi_max.
-- <b>Peso_min.
-- <b>Peso_max.
-- <b>Esperanza_vida.
-- <b>Habitat.
-- <b>Dieta.
-- <b>Rango_geo.
-- <b>Imagen.
-- <b>created_at.
-- <b>updated_at.
+- <b>Tiempo_activo: </b>Momentos en los que el animal realiza sus actividades (Diurno, Nocturno, Matutino).
+- <b>Longi_min: </b>Largo del animal en su estado mínimo.
+- <b>Longi_max: </b>.
+- <b>Peso_min: </b>.
+- <b>Peso_max: </b>.
+- <b>Esperanza_vida: </b>.
+- <b>Habitat: </b>.
+- <b>Dieta: </b>.
+- <b>Rango_geo: </b>.
+- <b>Imagen: </b>.
+- <b>created_at: </b>.
+- <b>updated_at: </b>.
 
 ## License
 
