@@ -14,7 +14,7 @@
         @yield('Titulo')
     </title>  
 
-    <link href="./main.3da94fde.css" rel="stylesheet">
+    <link href="/main.3da94fde.css" rel="stylesheet">
 </head>
 
 <body>
@@ -70,6 +70,6 @@
       navActivePage();
     });
 </script>
- <script type="text/javascript" src="./main.4c6e144e.js"></script></body>
+<script type="text/javascript" src="/main.4c6e144e.js"></script></body>
 
 </html>

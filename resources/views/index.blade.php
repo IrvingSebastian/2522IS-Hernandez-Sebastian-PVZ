@@ -14,8 +14,9 @@
           <div class="text-content">
             <h1>DinoAnimales</h1>
             <h4>¿Deseas saber algún dato acerca de Animales y Dinosaurios?</h4>
-            <h4>Estas en la pagina correcta.</h4>
-            <h4>¡VAMOS! dale a las 3 lineas de arriba y comienza.</h4>
+            <h4>Te encuentras en la pagina correcta.</h4>
+            <h5>¡VAMOS! dale a las 3 lineas de arriba y comienza.</h5>
+            <h5>O si lo prefieres solo baja un poco ;)</h5>
           </div>
         </div>
       </div>
@@ -70,7 +71,8 @@
               que consulta información de una API y a su vez, la guarda en una base de datos para
               poder ser mostrada. Si deseas consultar cualquier información puedes usar los botones
               de navegación de Siguiente y Anterior o dar clic en los botones debajo de las 
-              imágenes de animales que aparecena continuación.
+              imágenes de animales que aparecena continuación. En la información de los animales,
+              los datos están dados en pies (ft) o en libras (lbs).
             </p>
             <p>Por cierto, si deseas saber más acerca de que es una API o algo de Base de Datos, puedes
               consultar el Blog que aparece en el menú de las 3 líneas (tiene un logo de un planeta).
@@ -81,7 +83,7 @@
 
 
         <img src="{{$Animal_1['Imagen']}}" alt="" class="img-responsive" style="width: 5000px">
-        <p><a href="" class="btn btn-primary btn-lg">{{$Animal_1['Nombre']}}</a></p>
+        <p><a href="{{route('animales', $Animal_1['ID'])}}" class="btn btn-primary btn-lg">{{$Animal_1['Nombre']}}</a></p>
 
         <blockquote class="text-center large-spacing">
             <p>"Los animales nacen como son, lo aceptan y eso es todo. Viven con mayor paz que las personas"</p>
@@ -91,17 +93,17 @@
         <div class="row">
             <div class="col-md-6">
             <img src="{{$Animal_2['Imagen']}}" class="img-responsive" style="width: 2000px; height:500px">
-            <p><a href="" class="btn btn-primary btn-lg">{{$Animal_2['Nombre']}}</a></p>
+            <p><a href="{{route('animales', $Animal_2['ID'])}}" class="btn btn-primary btn-lg">{{$Animal_2['Nombre']}}</a></p>
             </div>
 
             <div class="col-md-6">
             <img src="{{$Animal_3['Imagen']}}" class="img-responsive" style="width: 2000px; height:500px">
-            <p><a href="" class="btn btn-primary btn-lg">{{$Animal_3['Nombre']}}</a></p>
+            <p><a href="{{route('animales', $Animal_3['ID'])}}" class="btn btn-primary btn-lg">{{$Animal_3['Nombre']}}</a></p>
             </div>
         </div>
 
         <img src="{{$Animal_4['Imagen']}}" class="img-responsive" style="width: 5000px">
-        <p><a href="" class="btn btn-primary btn-lg">{{$Animal_4['Nombre']}}</a></p>
+        <p><a href="{{route('animales', $Animal_4['ID'])}}" class="btn btn-primary btn-lg">{{$Animal_4['Nombre']}}</a></p>
 
       </div>
     </div>
@@ -114,14 +116,14 @@
       <div class="col-xs-12 text-center">
         <ul class="navbar-nav nav">
           <li>
-            <a href="" title="" class="project-nav left"><span class="project-number">00</span>Anterior</a>
+            <a href="#" title="" class="project-nav left"><span class="project-number">00</span>Anterior</a>
           </li>
         </ul>
         <p class="h5 navbar-text">Dinoanimales<i class="fa fa-chevron-down arrow-down" aria-hidden="true"></i></p>
 
         <ul class="navbar-nav nav navbar-right">
           <li>
-            <a href="" title="" class="project-nav right"><span class="project-number">01</span>Siguiente</a>
+            <a href="{{route('animales', 1)}}" title="" class="project-nav right"><span class="project-number">01</span>Siguiente</a>
           </li>
         </ul>
       </div>

@@ -20,7 +20,4 @@ Route::get('/index', [ApiController::class,'index']) ->name('index');
 Route::get('/acercaDe', [ApiController::class,'acercaDe']) ->name('acercaDe');
 
 //Vistas Animales
-Route::get('/animales/{id}', [ApiController::class,'animalesInfo']) ->name('animalesInfo');
-
-//Vistas Prueba
-Route::get('/componentes', [ApiController::class,'componentes']) ->name('componentes');
+Route::get('/animales/{id}', [ApiController::class,'animales']) ->name('animales');
