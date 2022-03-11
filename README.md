@@ -24,7 +24,9 @@ Para consultar la API solo hace falta ingresar a la siguiente ruta y consultarla
 Esta ruta retornará un arreglo con todos los animales, el arreglo se llama Animales, y puedes identificarlo con los ID's.
 <br>
 Toda la información contendia es la siguiente:
-- Nombre.
+
+- ID: Identificador de cada elemento del arreglo.
+- Nombre: Indica el nombre del animal.
 - Nombre_latino.
 - Tipo.
 - Tiempo_activo.
