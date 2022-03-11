@@ -31,16 +31,16 @@ Toda la información contendia es la siguiente:
 - <b>Tipo: </b> Tipo de Animal seleccionado.
 - <b>Tiempo_activo: </b>Momentos en los que el animal realiza sus actividades (Diurno, Nocturno, Matutino).
 - <b>Longi_min: </b>Largo del animal en su estado mínimo.
-- <b>Longi_max: </b>.
-- <b>Peso_min: </b>.
-- <b>Peso_max: </b>.
-- <b>Esperanza_vida: </b>.
-- <b>Habitat: </b>.
-- <b>Dieta: </b>.
-- <b>Rango_geo: </b>.
-- <b>Imagen: </b>.
-- <b>created_at: </b>.
-- <b>updated_at: </b>.
+- <b>Longi_max: </b>Largo del animal en su estado máximo.
+- <b>Peso_min: </b>Peso del animal en su estado mínimo.
+- <b>Peso_max: </b>Peso del animal en su estado máximo.
+- <b>Esperanza_vida: </b>Años de vida estimados del animal.
+- <b>Habitat: </b>Lugar donde el animal suele vivir.
+- <b>Dieta: </b>Alimentos que el animal consume.
+- <b>Rango_geo: </b>Lugares geográficos, países o regiones donde vive el animal.
+- <b>Imagen: </b>Imagen ilustrativa del animal.
+- <b>created_at: </b>Fecha de creación del registro.
+- <b>updated_at: </b>Fecha de actualización del registro.
 
 ## License
 
