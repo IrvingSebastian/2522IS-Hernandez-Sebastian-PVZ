@@ -26,21 +26,21 @@ Esta ruta retornará un arreglo con todos los animales, el arreglo se llama Anim
 Toda la información contendia es la siguiente:
 
 - <b>ID: </b>Identificador de cada elemento del arreglo.
-- Nombre: Indica el nombre del animal.
-- Nombre_latino.
-- Tipo.
-- Tiempo_activo.
-- Longi_min.
-- Longi_max.
-- Peso_min.
-- Peso_max.
-- Esperanza_vida.
-- Habitat.
-- Dieta.
-- Rango_geo.
-- Imagen.
-- created_at.
-- updated_at.
+- <b>Nombre: </b>Indica el nombre del animal.
+- <b>Nombre_latino: </b> Nombre científico del Animal.
+- <b>Tipo: </b> Tipo de Animal seleccionado.
+- <b>Tiempo_activo.
+- <b>Longi_min.
+- <b>Longi_max.
+- <b>Peso_min.
+- <b>Peso_max.
+- <b>Esperanza_vida.
+- <b>Habitat.
+- <b>Dieta.
+- <b>Rango_geo.
+- <b>Imagen.
+- <b>created_at.
+- <b>updated_at.
 
 ## License
 
