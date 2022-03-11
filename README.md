@@ -9,7 +9,7 @@
 
 ## Nombre de la Pareja
 
-Irving Gregorio Sebastián Ildefonso
+Irving Gregorio Sebastián Ildefonso <br>
 Luis Fernando Hernández García
 
 - [Link de la página](http://animalesaurios.herokuapp.com/).
