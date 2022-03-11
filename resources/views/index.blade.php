@@ -46,6 +46,8 @@
                 <li>Irving Gregorio Sebastián Ildefonso</li>
                 <li>Fernando Vargas Bautista</li>
               </ul>
+
+              <iframe src="https://discord.com/widget?id=858003129064751114&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
           </div>
           <div class="col-md-8">
             <h3>¿Qué son los animales?</h3>
