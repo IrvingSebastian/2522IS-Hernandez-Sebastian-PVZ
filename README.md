@@ -25,7 +25,7 @@ Esta ruta retornará un arreglo con todos los animales, el arreglo se llama Anim
 <br>
 Toda la información contendia es la siguiente:
 
-- ID: Identificador de cada elemento del arreglo.
+- <b>ID: </b>Identificador de cada elemento del arreglo.
 - Nombre: Indica el nombre del animal.
 - Nombre_latino.
 - Tipo.
