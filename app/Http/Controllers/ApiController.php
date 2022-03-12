@@ -28,8 +28,15 @@ class ApiController extends Controller
     //Función de Inicio o Index de Dinosarios
     public function indexD(){
         //Elegir 3 Dinosaurios aleatorios para el Index
+        $cliente1 = new \GuzzleHttp\Client();
+        $response = $cliente1->request('GET', 'http://dinoanimales.herokuapp.com/consultarDinosaurios');
+        $Dinosaurios = json_decode($response->getBody()->getContents(), true);
+    
+        $Dino1 = $Dinosaurios[rand(1,10)];
+        $Dino2 = $Dinosaurios[rand(1,10)];
+        $Dino3 = $Dinosaurios[rand(1,10)];
 
-        return view('indexD');
+        return view('indexD', ['Dino1'=>$Dino1]);
     }
 
     public function animales($id){

@@ -58,7 +58,7 @@
         </div>
 
 
-        <img src="" alt="" class="img-responsive" style="width: 5000px">
+        <img src="{{$Dino1['Imagen']}}" alt="" class="img-responsive" style="width: 5000px">
         <p><a href="" class="btn btn-primary btn-lg">XD</a></p>
 
         <blockquote class="text-center large-spacing">

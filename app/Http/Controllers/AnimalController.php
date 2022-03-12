@@ -17,4 +17,20 @@ class AnimalController extends Controller
         //Convertir el arreglo a JSON
         return response()->json(["Estatus" => "Animales_Listos","Animales" => $Animales]);
     }
+
+    public function consultarAnimal($id){
+        //Enviar el Animal
+        $Animal = Animal::find($id);
+
+        if ($Animal == null) {
+            return response()->json(["Estatus" =>"Animal_NoEncontrado"]);
+        }
+    
+        else{
+            //convertir el arreglo a JSON
+            return response()->json(["Estatus" =>"Animal_Listo","Animal" => $Animal]);
+        } 
+    }
+
+    
 }

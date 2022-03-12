@@ -29,3 +29,4 @@ Route::get('/dinosaurios/{id}', [ApiController::class,'dinosaurios']) ->name('di
 
 //Vista del JSON de la Base de Datos
 Route::get('/consultarAnimales', [AnimalController::class,'consultarAnimales']) ->name('consultarAnimales');
+Route::get('/consultarAnimal/{id}', [AnimalController::class,'consultarAnimal']) ->name('consultarAnimal');
