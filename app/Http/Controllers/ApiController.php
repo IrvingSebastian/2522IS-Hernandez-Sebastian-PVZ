@@ -32,9 +32,9 @@ class ApiController extends Controller
         $response = $cliente1->request('GET', 'http://dinoanimales.herokuapp.com/consultarDinosaurios');
         $Dinosaurios = json_decode($response->getBody()->getContents(), true);
     
-        $Dino1 = $Dinosaurios[rand(1,10)];
-        $Dino2 = $Dinosaurios[rand(1,10)];
-        $Dino3 = $Dinosaurios[rand(1,10)];
+        $Dino1 = $Dinosaurios["Dinosaurios"][rand(1,10)];
+        /*$Dino2 = $Dinosaurios[rand(1,10)];
+        $Dino3 = $Dinosaurios[rand(1,10)];*/
 
         return view('indexD', ['Dino1'=>$Dino1]);
     }
