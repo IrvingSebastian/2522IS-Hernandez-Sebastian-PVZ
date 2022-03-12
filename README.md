@@ -45,6 +45,7 @@ Toda la información contenida es la siguiente:
 - <b>Imagen: </b>Imagen ilustrativa del animal.
 - <b>created_at: </b>Fecha de creación del registro.
 - <b>updated_at: </b>Fecha de actualización del registro.
+<br>
 
 Si deseas consultar un animal en específico, solo necesitas consultar esta ruta con el mismo método GET:
 - http://animalesaurios.herokuapp.com/consultarAnimal/{ID}.
