@@ -46,6 +46,11 @@ Toda la información contenida es la siguiente:
 - <b>created_at: </b>Fecha de creación del registro.
 - <b>updated_at: </b>Fecha de actualización del registro.
 
+Si deseas consultar un animal en específico, solo necesitas consultar esta ruta con el mismo método GET:
+- http://animalesaurios.herokuapp.com/consultarAnimal/{ID}.
+<br>
+Esta ruta retornará un arreglo solo un animal, la información esta en un arreglo que se llama Animal, el ID lo puedes cambiar por números del 1 al 40.
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
