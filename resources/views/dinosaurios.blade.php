@@ -8,29 +8,13 @@
 <div class="section-container">
   <div class="container">
     <div class="text-center section-container-spacer">
-      <h2 class="with-project-number"><span class="project-number"> 
-      </span> </h2>
+      <h2 class="with-project-number"><span class="project-number">{{$Dino['id']}}
+      </span>{{$Dino['Nombre']}}</h2>
     </div>
     <div class="row section-container-spacer">
-      <img src="" class="img-responsive" style="width:2000px, height:1000px">
-
-      <h4>Nombre Latino: </h4>
+      <img src="{{$Dino['Imagen']}}" class="img-responsive" style="width:2000px, height:1000px">
       <br>
       <p><b>Tipo: </b></p>
-    </div>
-
-    <div class="row">
-      <h4>Otros Dinosaurios</h4>
-    
-      <div class="col-md-6">
-      <img src="" class="img-responsive" style="width: 2000px; height:500px">
-      <p><a href="" class="btn btn-primary btn-lg"></a></p>
-      </div>
-    
-      <div class="col-md-6">
-      <img src="" class="img-responsive" style="width: 2000px; height:500px">
-      <p><a href="" class="btn btn-primary btn-lg"></a></p>
-      </div>
     </div>
   </div>
 </div>

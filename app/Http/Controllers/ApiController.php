@@ -59,8 +59,9 @@ class ApiController extends Controller
 
         //Variable para los ID de los Dinosaurios
         $Dino = $Dinosaurio["Dinosaurio"];
+        $id = $Dino['id'];
 
-        return view('dinosaurios', ['Dino'=>$Dino]);
+        return view('dinosaurios', ['Dino'=>$Dino, 'id'=>$id]);
     }
 
     //Función de la vista de Acerca De

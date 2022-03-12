@@ -57,9 +57,8 @@
           </div>
         </div>
 
-
         <img src="{{$Dino1['Imagen']}}" alt="" class="img-responsive" style="width: 5000px">
-        <p><a href="{{route('dinosaurios', $Dino1['id'])}}" class="btn btn-primary btn-lg">{{{{$Dino1['Nombre']}}}}</a></p>
+        <p><a href="{{route('dinosaurios', $Dino1['id'])}}" class="btn btn-primary btn-lg">{{$Dino1['Nombre']}}</a></p>
 
         <blockquote class="text-center large-spacing">
             <p>"Todo el mundo piensa que va a ser diferente para ellos. Los dinosaurios también lo pensaban"</p>
@@ -69,12 +68,12 @@
         <div class="row">
             <div class="col-md-6">
             <img src="{{$Dino2['Imagen']}}" class="img-responsive" style="width: 2000px; height:500px">
-            <p><a href="{{route('dinosaurios', $Dino2['id'])}}" class="btn btn-primary btn-lg">{{{{$Dino2['Nombre']}}}}</a></p>
+            <p><a href="{{route('dinosaurios', $Dino2['id'])}}" class="btn btn-primary btn-lg">{{$Dino2['Nombre']}}</a></p>
             </div>
 
             <div class="col-md-6">
             <img src="{{$Dino3['Imagen']}}" class="img-responsive" style="width: 2000px; height:500px">
-            <p><a href="{{route('dinosaurios', $Dino3['id'])}}" class="btn btn-primary btn-lg">{{{{$Dino3['Nombre']}}}}</a></p>
+            <p><a href="{{route('dinosaurios', $Dino3['id'])}}" class="btn btn-primary btn-lg">{{$Dino3['Nombre']}}</a></p>
             </div>
         </div>
       </div>
