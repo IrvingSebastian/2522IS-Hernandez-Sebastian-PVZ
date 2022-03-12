@@ -14,7 +14,11 @@
     <div class="row section-container-spacer">
       <img src="{{$Dino['Imagen']}}" class="img-responsive" style="width:2000px, height:1000px">
       <br>
-      <p><b>Tipo: </b></p>
+      <p><b>Descripción: {{$Dino['Descripcion']}}</b></p>
+      <p><b>Altura: {{$Dino['Altura']}}</b></p>
+      <p><b>Peso: {{$Dino['Peso']}}</b></p>
+      <p><b>Región: {{$Dino['Region']}}</b></p>
+      <p><b>Área Geológica: {{$Dino['Area_Geologica']}}</b></p>
     </div>
   </div>
 </div>
@@ -27,14 +31,14 @@
       <div class="col-xs-12 text-center">
         <ul class="navbar-nav nav">
           <li>
-            <a href="{{route('dinosaurios', $id-1)}}" title="" class="project-nav left"><span class="project-number"> </span>Anterior</a>
+            <a href="{{route('dinosaurios', $id-1)}}" title="" class="project-nav left"><span class="project-number">{{$id-1}}</span>Anterior</a>
           </li>
         </ul>
         <p class="h5 navbar-text">Dinoanimales<i class="fa fa-chevron-down arrow-down" aria-hidden="true"></i></p>
 
         <ul class="navbar-nav nav navbar-right">
           <li>
-            <a href="{{route('dinosaurios', $id+1)}}" title="" class="project-nav right"><span class="project-number"> </span>Siguiente</a>
+            <a href="{{route('dinosaurios', $id+1)}}" title="" class="project-nav right"><span class="project-number">{{$id+1}}</span>Siguiente</a>
           </li>
         </ul>
       </div>
