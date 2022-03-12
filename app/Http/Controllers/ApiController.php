@@ -33,10 +33,10 @@ class ApiController extends Controller
         $Dinosaurios = json_decode($response->getBody()->getContents(), true);
     
         $Dino1 = $Dinosaurios["Dinosaurios"][rand(1,10)];
-        /*$Dino2 = $Dinosaurios[rand(1,10)];
-        $Dino3 = $Dinosaurios[rand(1,10)];*/
+        $Dino2 = $Dinosaurios["Dinosaurios"][rand(1,10)];
+        $Dino3 = $Dinosaurios["Dinosaurios"][rand(1,10)];
 
-        return view('indexD', ['Dino1'=>$Dino1]);
+        return view('indexD', ['Dino1'=>$Dino1, 'Dino2'=>$Dino2, 'Dino3'=>$Dino3]);
     }
 
     public function animales($id){
@@ -53,12 +53,14 @@ class ApiController extends Controller
 
     public function dinosaurios($id){
         //Buscar el Dinosaurio y enviar 2 Dinosaurios aleatorios
+        $cliente1 = new \GuzzleHttp\Client();
+        $response = $cliente1->request('GET', 'http://dinoanimales.herokuapp.com/consultarDinosaurio/'.$id);
+        $Dinosaurio = json_decode($response->getBody()->getContents(), true);
 
+        //Variable para los ID de los Dinosaurios
+        $Dino = $Dinosaurio["Dinosaurio"];
 
-        //Variable para los ID de los Animales
-    
-
-        return view('dinosaurios');
+        return view('dinosaurios', ['Dino'=>$Dino]);
     }
 
     //Función de la vista de Acerca De

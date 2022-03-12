@@ -1,7 +1,7 @@
 @extends('template.layout')
   
 @section('Titulo')
-   
+  {{$Dino['Nombre']}}
 @endsection
 
 @section('Cuerpo')
