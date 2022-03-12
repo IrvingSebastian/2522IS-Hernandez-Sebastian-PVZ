@@ -18,7 +18,7 @@ Luis Fernando Hernández García.
 ## Nombres de la Otra Bina
 Gabriela Menéndez Gómez. <br>
 Fernando Vargas Bautista.
-- [Link de la página de la otra Bina](http://animalesaurios.herokuapp.com/).
+- [Link de la página de la otra Bina](http://dinoanimales.herokuapp.com/).
 
 
 ## Consultar la API
