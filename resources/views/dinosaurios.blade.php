@@ -14,11 +14,11 @@
     <div class="row section-container-spacer">
       <img src="{{$Dino['Imagen']}}" class="img-responsive" style="width:2000px, height:1000px">
       <br>
-      <p><b>Descripción: {{$Dino['Descripcion']}}</b></p>
-      <p><b>Altura: {{$Dino['Altura']}}</b></p>
-      <p><b>Peso: {{$Dino['Peso']}}</b></p>
-      <p><b>Región: {{$Dino['Region']}}</b></p>
-      <p><b>Área Geológica: {{$Dino['Area_Geologica']}}</b></p>
+      <p><b>Descripción: </b>{{$Dino['Descripcion']}}</p>
+      <p><b>Altura: </b>{{$Dino['Altura']}}</p>
+      <p><b>Peso: </b>{{$Dino['Peso']}}</p>
+      <p><b>Región: </b>{{$Dino['Region']}}</p>
+      <p><b>Área Geológica: </b>{{$Dino['Area_Geologica']}}</p>
     </div>
   </div>
 </div>
